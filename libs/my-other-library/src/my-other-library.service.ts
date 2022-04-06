@@ -1,9 +1,9 @@
-import { Injectable, Logger } from "@nestjs/common";
+import { Injectable, Logger } from '@nestjs/common';
 
 @Injectable()
 export class MyOtherLibraryService {
   async init(): Promise<void> {
-    Logger.debug("MyOtherLibraryService");
+    Logger.debug('MyOtherLibraryService init called');
     return null;
   }
 }

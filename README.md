@@ -71,3 +71,15 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Project Setup
+
+### npm i -g corepack yarn
+
+### cd my-nest-project
+
+### npm install
+
+### npm run build / npm run build:my-other-nest-project
+
+### npm run start:prod / npm run start:my-other-nest-project:prod

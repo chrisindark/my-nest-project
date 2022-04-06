@@ -18,16 +18,16 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
-      "@app/my-library": [
+      "@christopherpaul/my-library": [
         "libs/my-library/src"
       ],
-      "@app/my-library/*": [
+      "@christopherpaul/my-library/*": [
         "libs/my-library/src/*"
       ],
-      "@app/my-other-library": [
+      "@christopherpaul/my-other-library": [
         "libs/my-other-library/src"
       ],
-      "@app/my-other-library/*": [
+      "@christopherpaul/my-other-library/*": [
         "libs/my-other-library/src/*"
       ]
     }

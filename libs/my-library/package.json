@@ -1,15 +1,23 @@
 {
   "name": "@christopherpaul/my-library",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "",
   "author": "Christopher Paul <chrisindark.notafraid@gmail.com>",
   "private": false,
   "license": "MIT",
   "scripts": {
+    "build": "nest build my-library",
+    "bump:major": "npm version major",
+    "bump:minor": "npm version minor",
+    "bump:patch": "npm version patch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "dist/"
+  ],
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
   "engines": {
     "node": ">= 14.0.0 <15"
-  },
-  "packageManager": "yarn@3.2.0"
+  }
 }
