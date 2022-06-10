@@ -18,18 +18,10 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
-      "@christopherpaul/my-library": [
-        "libs/my-library/src"
-      ],
-      "@christopherpaul/my-library/*": [
-        "libs/my-library/src/*"
-      ],
-      "@christopherpaul/my-other-library": [
-        "libs/my-other-library/src"
-      ],
-      "@christopherpaul/my-other-library/*": [
-        "libs/my-other-library/src/*"
-      ]
+      "@christopherpaul/my-library": ["libs/my-library/src"],
+      "@christopherpaul/my-library/*": ["libs/my-library/src/*"],
+      "@christopherpaul/my-other-library": ["libs/my-other-library/src"],
+      "@christopherpaul/my-other-library/*": ["libs/my-other-library/src/*"]
     }
   }
 }
